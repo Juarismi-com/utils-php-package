@@ -1,0 +1,22 @@
+{
+    "name": "juarismi/utils",
+    "autoload": {
+        "psr-4": {
+            "Juarismi\\Utils\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Iván Fretes",
+            "email": "vanfretes@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Juarismi\\Utils\\UtilsServiceProvider"
+            ]
+        }
+    }
+}
